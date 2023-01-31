@@ -1,11 +1,11 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <p style={{ color: "red" }}> Hola Hola, clean and working  !!!</p>
+      <p style={{ color: "yellow" }}> App component !!!</p>
     </div>
   );
-}
+};
 
 export default App;
