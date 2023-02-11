@@ -2,8 +2,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="App">
-      <p style={{ color: "yellow" }}> App component !!!</p>
+    <div className="contenedor">
+      <p> App component !!!</p>
     </div>
   );
 };

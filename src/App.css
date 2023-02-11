@@ -1,6 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+body {
+  background: #212139;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 500px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+label {
+  line-height: 40px;
+}
+
+input {
   text-align: center;
+  border: none;
 }
