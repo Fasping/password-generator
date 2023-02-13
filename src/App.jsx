@@ -14,6 +14,12 @@ const Fila = styled.div`
   gap: 10px;
 `;
 
+const ControlDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+`;
+
 const Button = styled.button`
   width: 100%;
   background-color: #684eff;
@@ -44,11 +50,39 @@ const App = () => {
       <form>
         <Fila>
           <label>Number caracters:</label>
-          <div>
-            <Button>-</Button>
+          <ControlDiv>
+            <Button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-dash-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+                />
+              </svg>
+            </Button>
             <span>0</span>
-            <Button>+</Button>
-          </div>
+            <Button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-plus-lg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+                />
+              </svg>
+            </Button>
+          </ControlDiv>
         </Fila>
       </form>
     </div>
