@@ -18,6 +18,15 @@ const ControlDiv = styled.div`
   display: flex;
   justify-content: space-between;
   text-align: center;
+
+  & > * {
+    flex: 1;
+  }
+
+  span {
+    line-height: 40px;
+    background: #33357e;
+  }
 `;
 
 const Button = styled.button`
