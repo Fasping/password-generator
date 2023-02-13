@@ -26,6 +26,7 @@ const Button = styled.button`
   color: #fff;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   height: 40px;
   vertical-align: top;
   font-size: 18px;
